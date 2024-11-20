@@ -1,0 +1,23 @@
+ID_EVENT,NAME_EVENT,TYPE_EVENT,START_DATE,END_DATE,START_TIME,END_TIME,ADDRESS,PLACE,COST,TYPE_PUBLIC,DESCRIPTION_EVENT
+1,Taller pinceladas de cempasúchil,1,2024-11-02,2024-11-02,11:00 AM,2:00 PM,San Pedro Museo de Arte,San Pedro Museo de Arte,0,1,N/A
+2,Taller ex-libris con grabado,1,2024-11-09,2024-11-09,3:00 PM,6:00 PM,Museo Taller Erasto Cortés,Museo Taller Erasto Cortés,0,1,N/A
+3,Taller Tinta y Calaveritas,1,2024-11-02,2024-11-02,2:00 PM,5:00 PM,Museo Taller Erasto Cortés,Museo Taller Erasto Cortés,0,1,N/A
+4,Taller páginas renacidas,1,2024-11-10,2024-11-24,3:00 PM,6:00 PM,Museo Taller Erasto Cortés,Museo Taller Erasto Cortés,0,1,Taller de reciclaje de papel
+5,Taller de Galletas,1,2024-11-02,2024-11-02,3:30 PM,5:00 PM,Museo Regional de la Revolución Mexicana,Casa de los Hermanos Serdán,0,1,"Día de muertos, crea, decora y disfruta con Balam."
+6,Taller de cartonería,1,2024-11-03,2024-11-24,10:00 AM,12:00 PM,Museo Regional de la Revolución Mexicana,Casa de los Hermanos Serdán,0,1,Farolitos navideños
+7,Taller monedero gráfico,1,2024-11-16,2024-11-16,2:00 PM,6:00 PM,Museo Taller Erasto Cortés,Museo Taller Erasto Cortés,0,1,N/A
+8,Taller de Arte Huichol,1,2024-11-17,2024-11-17,12:00 PM,1:00 PM,Museo Regional de Cholula,Museo Regional de Cholula,0,1,"Ojos de Dios o Tzicuri, con Sofía Blancas y Leandro Bellido"
+9,Adelitas Revolucionarias de papel,1,2024-11-17,2024-11-17,1:00 PM,2:00 PM,Museo Regional de Cholula,Museo Regional de Cholula,0,1,Imparte: Xanath García
+10,Taller de papel picado,1,2024-11-03,2024-11-03,1:00 PM,2:00 PM,Museo Regional de Cholula,Museo Regional de Cholula,0,1,Imparte: Xanath García
+11,Cuidando el Planeta con Mafalda,1,2024-11-17,2024-11-17,2:00 PM,3:30 PM,Museo Infantil de la Constancia Mexicana,Museo Infantil de la Constancia Mexicana,0,1,Diseña tu propia maceta
+12,Taller de rebozo artesanal mexicano,1,2024-11-05,2024-11-14,11:00 AM,1:00 PM,Museo Regional de la Revolución Mexicana,Casa de los Hermanos Serdán,0,1,Diseña tu propio rebozo artístico
+13,Monedas de Revolución,1,2024-10-20,2024-10-22,11:00 AM,2:00 PM,Museo Interactivo de la Batalla del 5 de Mayo,Museo Interactivo de la Batalla del 5 de Mayo,0,1,N/A
+14,Taller de Galletas Navideñas Decoradas,1,2024-11-09,2024-11-30,3:00 PM,5:00 PM,Museo Regional de la Revolución Mexicana,Casa de los Hermanos Serdán,0,1,"Crea, decora y disfruta con Balam."
+15,Taller de Piñatas Tradicionales,1,2024-11-22,2024-11-29,10:00 AM,1:00 PM,Patio de los Azulejos,Patio de los Azulejos,0,1,Imparte: Mtra. Patricia Valle
+16,Taller de Códices Prehispánicos,1,2024-11-20,2024-11-22,11:00 AM,2:00 PM,Museo de la Evolución Puebla,Museo de la Evolución Puebla,0,1,N/A
+17,Bazarcito Artesanal,3,2024-11-16,2024-11-16,5:00 PM,5:00 PM,Museo de la Música Mexicana,Rafael Tovar y de Teresa,0,1,Imparte: ExpoVenta Zona Norte
+18,Noches de Ensueño,3,2024-11-16,2024-11-16,5:00 PM,5:00 PM,Complejo Museístico La Constancia Mexicana,Complejo Museístico La Constancia Mexicana,0,1,Por: Grupo Ensueño
+19,Taller de glifos o sellos prehispánicos,1,2024-11-16,2024-11-16,5:00 PM,5:00 PM,Museo Regional de Cholula,Museo Regional de Cholula,0,1,N/A
+20,"Conociendo la Exposición: Dos de Nosotros, Lennon y Harrison",3,2024-11-16,2024-11-16,6:00 PM,6:00 PM,Fonoteca Vicente Teódulo Mendoza,Fonoteca Vicente Teódulo Mendoza,0,1,Imparte: Beat Festival
+21,Presentación de libro,3,2024-11-16,2024-11-16,6:00 PM,6:00 PM,Museo Regional de Cholula,Museo Regional de Cholula,0,1,De Cholula a Santiago. Un legado de amor y sacrificio por Cristo. Imparte: LAE Maria del Socorro Carranco Ledezma
+22,Proyección del cortometraje,3,2024-11-16,2024-11-16,7:00 PM,7:00 PM,Museo Regional de Cholula,Museo Regional de Cholula,0,1,"""La Leyenda de No Tlaltipak i Mi tierra"". Imparte: Eduardo León, Cineasta Cholulteco"
