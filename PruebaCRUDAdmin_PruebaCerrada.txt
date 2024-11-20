@@ -1,0 +1,106 @@
+//Implementar una tabla que muestre los usuarios y permita editar o eliminar, 
+se necesita seguir una estructura conformada por los campos de la DB, pero en este caso con los campos correspondientes a ID 
+de usuario, Nombre y Correo. La tabla también tendrá dos botones para cada fila: 
+uno para editar los campos y otro para eliminar al usuario.
+
+//Codigo para pruebas, realizar los cambios a los campos de conexion de la base de datos.
+import 'package:flutter/material.dart';
+
+class SettingsScreen extends StatelessWidget {
+  const SettingsScreen({super.key});
+
+  // Simulación de usuarios obtenidos desde la base de datos
+  final List<Map<String, String>> users = [
+    {
+      'id': '1',
+      'name': 'Juan Pérez',
+      'email': 'juan.perez@example.com',
+    },
+    {
+      'id': '2',
+      'name': 'María López',
+      'email': 'maria.lopez@example.com',
+    },
+    {
+      'id': '3',
+      'name': 'Carlos Sánchez',
+      'email': 'carlos.sanchez@example.com',
+    },
+    // Puedes agregar más usuarios según sea necesario
+  ];
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Configuración del Panel de Administración'),
+      ),
+      body: Padding(
+        padding: const EdgeInsets.all(16.0),
+        child: Column(
+          children: [
+            // Título de la pantalla
+            const Text(
+              'Usuarios Registrados',
+              style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+            ),
+            const SizedBox(height: 20),
+            // Tabla de usuarios
+            Expanded(
+              child: ListView.builder(
+                itemCount: users.length,
+                itemBuilder: (context, index) {
+                  final user = users[index];
+
+                  return Card(
+                    margin: const EdgeInsets.symmetric(vertical: 8),
+                    child: Padding(
+                      padding: const EdgeInsets.all(16.0),
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          // Columna izquierda: Información del usuario
+                          Expanded(
+                            child: Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Text('ID: ${user['id']}'),
+                                Text('Nombre: ${user['name']}'),
+                                Text('Correo: ${user['email']}'),
+                              ],
+                            ),
+                          ),
+                          // Columna derecha: Botones para editar y eliminar
+                          Row(
+                            children: [
+                              // Botón para editar el usuario
+                              IconButton(
+                                icon: const Icon(Icons.edit, color: Colors.blue),
+                                onPressed: () {
+                                  // Aquí va la lógica para editar el usuario
+                                  // Ejemplo: editarUsuario(user);
+                                },
+                              ),
+                              // Botón para eliminar el usuario
+                              IconButton(
+                                icon: const Icon(Icons.delete, color: Colors.red),
+                                onPressed: () {
+                                  // Aquí va la lógica para eliminar al usuario
+                                  // Ejemplo: eliminarUsuario(user);
+                                },
+                              ),
+                            ],
+                          ),
+                        ],
+                      ),
+                    ),
+                  );
+                },
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
