@@ -13,7 +13,7 @@ PHOTO 		BLOB,
 EMAIL		VARCHAR(255) UNIQUE NOT NULL, 
 PASSWORD 	VARCHAR(255)     NOT NULL,
 ROL             ENUM('usuario','administrador') DEFAULT 'usuario',
-ID_GOOGLE	VARCHAR(255)
+ID_GOOGLE	VARCHAR(255) /* */
 
 );
 
